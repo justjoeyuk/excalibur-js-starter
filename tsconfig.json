@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es2018",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "strictNullChecks": true,
+      "paths": {
+          "assets": ["@assets"]
+      },
+      "sourceMap": true,
+      "outDir": "./dist/"
+    }
+}
+  
