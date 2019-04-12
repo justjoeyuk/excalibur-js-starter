@@ -25,6 +25,7 @@ levelOne.add(player);
 game.add('levelOne', levelOne);
 
 let loader = new ex.Loader();
+
 for (let key in Resources) {
   loader.addResource(Resources[key]);
 }
